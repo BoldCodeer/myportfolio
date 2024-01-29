@@ -1,0 +1,34 @@
+:root {
+    --primary: rgb(47, 144, 255);
+    --secondary: rgb(10, 111, 194);
+}
+
+body {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-brand {
+    color: var(--secondary);
+}
+
+.nav-item:hover {
+    background-color: var(--primary);
+    transition: ease-in 1s;
+}
+
+.hero_sec {
+    width: 500px;
+    height: auto;
+}
+
+.about_sec {
+    width: 250px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.copy {
+    background: var(--secondary);
+}
+
